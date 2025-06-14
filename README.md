@@ -1,8 +1,8 @@
-# 🔥 Fire Detection Using IoT and AI
+# Fire Detection Using IoT and AI
 
 An intelligent fire detection system that combines ESP32 hardware with physical sensors (temperature, smoke, flame) and AI (YOLOv8) for real-time fire detection from camera images with instant alerts.
 
-## 🏗️ System Architecture
+## 🏗System Architecture
 
 ```
 ESP32 (Sensor Hub)
@@ -18,7 +18,7 @@ PC Server (AI Processing)
  └── MQTT Alert Signal to ESP32
 ```
 
-## 🎯 Key Features
+## Key Features
 
 - **Multi-sensor Detection**: Temperature, humidity, gas, and flame sensors
 - **AI-Powered Vision**: YOLOv8 model for fire and smoke recognition
@@ -26,7 +26,7 @@ PC Server (AI Processing)
 - **Instant Alerts**: Buzzer and LED warnings with auto-reset
 - **MQTT Communication**: Reliable IoT messaging between devices
 
-## 📦 Components
+## Components
 
 ### 1. ESP32 Firmware (Arduino/PlatformIO)
 **Sensor Data Collection:**
@@ -49,7 +49,7 @@ PC Server (AI Processing)
   - `"1"` when fire detected
   - `"0"` when safe
 
-## 📱 Blynk Dashboard
+## Blynk Dashboard
 
 | Virtual Pin | Data Display |
 |-------------|-------------|
@@ -59,7 +59,7 @@ PC Server (AI Processing)
 | V4 | Alert Status (1 = Alert, 0 = Safe) |
 | V5 | CO Concentration (ppm) |
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### ESP32 Setup
 1. **Upload Firmware**
@@ -90,7 +90,7 @@ PC Server (AI Processing)
    - Ensure ESP32-CAM is accessible from PC
    - Test stream URL: `http://<esp32-cam-ip>/stream`
 
-## 🧠 YOLOv8 Model Details
+## YOLOv8 Model Details
 
 - **Model File**: `best_320.pt`
 - **Classes**: Fire and Smoke detection
@@ -98,7 +98,7 @@ PC Server (AI Processing)
 - **Input Resolution**: 320x320 pixels
 - **Optimized for**: Real-time detection on standard hardware
 
-## 🔧 Hardware Requirements
+## Hardware Requirements
 
 ### ESP32 Setup
 - ESP32 Development Board
