@@ -2,7 +2,7 @@
 
 An intelligent fire detection system that combines ESP32 hardware with physical sensors (temperature, smoke, flame) and AI (YOLOv8) for real-time fire detection from camera images with instant alerts.
 
-## 🏗System Architecture
+## System Architecture
 
 ```
 ESP32 (Sensor Hub)
