@@ -49,15 +49,6 @@ PC Server (AI Processing)
   - `"1"` when fire detected
   - `"0"` when safe
 
-## Blynk Dashboard
-
-| Virtual Pin | Data Display |
-|-------------|-------------|
-| V0 | Temperature (°C) |
-| V1 | Humidity (%) |
-| V3 | Flame Detection Status |
-| V4 | Alert Status (1 = Alert, 0 = Safe) |
-| V5 | CO Concentration (ppm) |
 
 ## Installation & Setup
 
@@ -95,8 +86,10 @@ PC Server (AI Processing)
 - **Model File**: `best_320.pt`
 - **Classes**: Fire and Smoke detection
 - **Framework**: Ultralytics YOLOv8
-- **Input Resolution**: 320x320 pixels
+- **Input Resolution**: 224x224 pixels
 - **Optimized for**: Real-time detection on standard hardware
+- <img width="1822" height="908" alt="image" src="https://github.com/user-attachments/assets/b1d58fe2-91be-40a1-80d4-a81cf4262251" />
+
 
 ## Hardware Requirements
 
