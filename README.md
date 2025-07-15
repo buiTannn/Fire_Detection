@@ -86,9 +86,9 @@ PC Server (AI Processing)
 - **Model File**: `best_320.pt`
 - **Classes**: Fire and Smoke detection
 - **Framework**: Ultralytics YOLOv8
-- **Input Resolution**: 224x224 pixels
+- **Input Resolution**: 320x320 pixels
 - **Optimized for**: Real-time detection on standard hardware
-- <img width="1822" height="908" alt="image" src="https://github.com/user-attachments/assets/b1d58fe2-91be-40a1-80d4-a81cf4262251" />
+<img width="1803" height="904" alt="image" src="https://github.com/user-attachments/assets/5e88a041-a686-4ae3-b868-b9be4eb77a11" />
 
 
 ## Hardware Requirements
