@@ -54,9 +54,7 @@ PC Server (AI Processing)
 
 ### ESP32 Setup
 1. **Upload Firmware**
-   ```bash
-   # Upload Fire_Detection.ino to ESP32
-   ```
+
 
 2. **Configuration**
    - WiFi SSID/Password
@@ -101,5 +99,8 @@ PC Server (AI Processing)
 - Buzzer
 - LED indicators
 - ESP32-CAM module
+## RESULT
+<img width="1895" height="892" alt="Screenshot 2025-06-06 154630" src="https://github.com/user-attachments/assets/5be39ed6-a17a-4604-9df6-d1ad7efc4ea5" />
+
 
 ⭐ **Star this repository if you found it helpful!** ⭐
