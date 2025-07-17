@@ -2,21 +2,6 @@
 
 An intelligent fire detection system that combines ESP32 hardware with physical sensors (temperature, smoke, flame) and AI (YOLOv8) for real-time fire detection from camera images with instant alerts.
 
-## System Architecture
-
-```
-ESP32 (Sensor Hub)
- ├── DHT11 (Temperature & Humidity)
- ├── MQ-2 Gas Sensor (CO detection)
- ├── Flame Sensor (IR flame detection) 
- ├── Buzzer + LED Alert System
- └── MQTT Communication ↔ PC Server
-                          ↕
-PC Server (AI Processing)
- ├── ESP32-CAM Video Stream
- ├── YOLOv8 Model (Fire/Smoke Detection)
- └── MQTT Alert Signal to ESP32
-```
 
 ## Key Features
 
@@ -72,7 +57,7 @@ PC Server (AI Processing)
 
 2. **Run Server**
    ```bash
-   python fire_detection_server.py
+   python final.py
    ```
 
 3. **Verify Camera Stream**
