@@ -68,7 +68,7 @@ An intelligent fire detection system that combines ESP32 hardware with physical 
 
 - **Model File**: `best_320.pt`
 - **Classes**: Fire and Smoke detection
-- **Framework**: Ultralytics YOLOv8
+- **Framework**: Pytorch
 - **Input Resolution**: 320x320 pixels
 - **Optimized for**: Real-time detection on standard hardware
 <img width="1803" height="904" alt="image" src="https://github.com/user-attachments/assets/5e88a041-a686-4ae3-b868-b9be4eb77a11" />
